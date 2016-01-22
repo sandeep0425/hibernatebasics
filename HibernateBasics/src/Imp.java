@@ -17,6 +17,7 @@ public class Imp
 	static 
 		Criterion cr;
 	private int a;
+	private int b;
 	public static void main(String[] args) {
 		Configuration cfg = new Configuration();
 		cfg.configure();
