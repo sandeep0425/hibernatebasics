@@ -15,7 +15,8 @@ import org.hibernate.jpa.criteria.compile.CriteriaInterpretation;
 public class Imp 
 {
 	static 
-	Criterion cr;
+		Criterion cr;
+	private int a;
 	public static void main(String[] args) {
 		Configuration cfg = new Configuration();
 		cfg.configure();
